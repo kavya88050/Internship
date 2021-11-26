@@ -24,8 +24,7 @@ public static void main (String[]args){
   for (int i = 0; i < size; i++){
   a[i] = sc.nextInt ();
 }
-  System.out.println ("total distinct number of element " +
-  DCount (a, size));
+  System.out.println ("total distinct number of element " + DCount (a, size));
 }
   public static int DCount (int a[], int n) {
   int res = 0;
