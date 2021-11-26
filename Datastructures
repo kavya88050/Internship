@@ -1,0 +1,13 @@
+PROBLEM-1
+SQUARE ROOT OF A NUMBER:(JAVA)
+public class Demo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter any number:");
+        int num = scanner.nextInt();
+        System.out.println("Square root of the given number is: "+Math.sqrt(num));
+        scanner.close();
+    }
+}
+
+PROBLEM-2
